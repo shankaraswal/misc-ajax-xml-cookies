@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Show - Hide</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<script src="jq.js" type="text/javascript" language="javascript"></script>
+<script src="car.js" type="text/javascript"></script>
+<script src="tick.js" type="text/javascript"></script>
+<script src="cook.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="mainContainer">
+	<h3>Things incorporated in this script</h3>
+    <ol>
+    	<li>XMl Parsing for Ticker data with jquery ajax call</li>
+        <li>Ticker plugin injected after xml parsing</li>
+        <li>Image Slideshow by using same plugin.</li>
+        <li>Conditional cookie based AJAX call for ticker data.</li>
+    </ol>
+    <br />
+	<br />
+
+  <ul id="ticker" class="ticker">
+  </ul>
+
+<ul id="slideShow">
+  <li> <img width="169" height="169" src="1.jpg"> </li>
+  <li> <img width="169" height="169" src="2.jpg"> </li>
+  <li> <img width="169" height="169" src="1.jpg"> </li>
+  <li> <img width="169" height="169" src="2.jpg"> </li>
+</ul><br />
+<br />
+<br />
+
+</div>
+<script>
+$('#slideShow').bxSlider({
+    mode: 'fade',
+    captions: true,
+    auto: true,
+    controls: false,
+	pager: true,
+    randomStart: false
+  });
+  </script>
+</body>
+</html>

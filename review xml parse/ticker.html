@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Show - Hide</title>
+<link href="style.css" type="text/css" rel="stylesheet" />
+<script src="jq.js" type="text/javascript" language="javascript"></script>
+<script src="car.js" type="text/javascript"></script>
+<script src="tick.js" type="text/javascript"></script>
+</head>
+<body>
+<div class="mainContainer">
+<h3>Implemented things in this script</h3>
+<ol>
+  <li>XML Parsing with jquery ajax call</li>
+  <li>Tabbing with a global jqurey function</li>
+  <li>Carousal (bxSlider plugin) injected after xml parsing</li>
+  <li>Used Cookie based xml parsing: if data after xml parsing is already saved in cookies, it will be append from their and no need of ajax call.</li>
+</ol>
+
+  <div id="reviews" class="reviews">
+    <ul id="reviewTab" class="reviewTab afterClr">
+    </ul>
+    <div id="aswal">
+      <ul class="shan" id="shan">
+      </ul>
+    </div>
+    <div class="reviewCont afterClr" id="reviewCont" style="display:none"></div>
+  </div>
+</div>
+</body>
+</html>

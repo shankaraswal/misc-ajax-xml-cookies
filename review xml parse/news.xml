@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<news-list>
+  <news>
+	<img-src>1.jpg</img-src>
+	<news-title>View the latest Practical Guidance Module - Work Health and Safety Law</news-title>
+	<news-url>http://www.lexisnexis.com.au/practicalguidance/workhealth-and-safety/default.aspx</news-url>
+  </news>
+  
+  <news>
+    <img-src>2.jpg</img-src>
+    <news-title>Cate Blanchett, luminous in the final stages of her pregnancy, was the iconic image of last year's 2020 summit. Her attendance was noted in every news report and television broadcast - the perfect metaphor for the expectant nation.</news-title>
+    <news-url>http://www.lexisnexis.com.au/en-au/products/pclaw-plus.page</news-url>
+  </news>
+
+  <news>
+    <img-src>2.jpg</img-src>
+    <news-title>Cate Blanchett, luminous in the final stages of her pregnancy, was the iconic image of last year's 2020 summit.</news-title>
+    <news-url>http://www.lexisnexis.com.au/en-au/products/pclaw-plus.page</news-url>
+  </news>
+
+  <news>
+    <img-src>2.jpg</img-src>
+    <news-title> Her attendance was noted in every news report and television broadcast - the perfect metaphor for the expectant nation.</news-title>
+    <news-url>http://www.lexisnexis.com.au/en-au/products/pclaw-plus.page</news-url>
+  </news>
+
+  <news>
+    <img-src>2.jpg</img-src>
+    <news-title>PCLaw - the perfect metaphor for the expectant nation.- the perfect metaphor for the expectant nation.</news-title>
+    <news-url>http://www.lexisnexis.com.au/en-au/products/pclaw-plus.page</news-url>
+  </news>
+
+  <news>
+    <img-src>2.jpg</img-src>
+    <news-title>- the perfect metaphor for the expectant nation.</news-title>
+    <news-url>http://www.lexisnexis.com.au/en-au/products/pclaw-plus.page</news-url>
+  </news>
+
+  <news>
+    <img-src>2.jpg</img-src>
+    <news-title>PCLaw Plus - Practice management software for small law firms</news-title>
+    <news-url>http://www.lexisnexis.com.au/en-au/products/pclaw-plus.page</news-url>
+  </news>
+  <news>
+    <img-src>2.jpg</img-src>
+    <news-title>PCLaw Plus - Practice management software for small law firms</news-title>
+    <news-url>http://www.lexisnexis.com.au/en-au/products/pclaw-plus.page</news-url>
+  </news>
+</news-list>

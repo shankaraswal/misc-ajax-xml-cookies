@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+body{background:#f2f2f2;font:normal 12px arial; color:#333;}
+.clr{clear:both; font-size:1px;}
+ul,ul li{ padding:0; margin:0; list-style-type:none;}
+
+.mainContainer{ width:500px; border:0px solid green; margin:0 auto;}
+	#tab1{}
+	.tabs{}
+	.tabs li{ float:left;background: url(a.png) no-repeat left top; height:32px; line-height:32px; width:142px; margin-right:10px;}	
+	.tabs li.act{ float:left;background: url(a.png) no-repeat left bottom; height:32px; line-height:32px; width:142px; }	
+
+	.tabs li a{font:bold 12px tahoma; color:#000; text-decoration:none; text-align:center; display:block; line-height:32px;}	
+	.cont{background: #fff; padding:20px; border:1px solid #ccc;}
+	
+/************/
+
+.bx-prev{ background:#f00; padding:10px 25px; margin:0 0 0 10px; position:absolute;}
+ .bx-next{ background:#f00; padding:10px 25px; margin:0 0 0 110px; position:absolute;}
+
+#slider1{width:100%; border:1px solid #000; height:100px;}
+#slider1 li{ background:#ccc; float:left; padding:5px; border-right:2px solid #fff; height:90px; width:100px;}
+
+#slider21{ width:630px; border:1px solid #000; height:100px;}
+#slider2 li{ background:#f00; float:left; padding:5px;border-right:2px solid #fff;border-right:2px solid #fff; height:90px; width:100px;}
+
+
+
+.ticker{ border:1px solid #f00; width:800px;}
+.ticker li{padding:10px; background:#fff; border:1px solid #ccc; float:left; width:auto !important}
+.ticker li img{width:20px; height:20px;}
+
+
+.reviewTab{border:1px solid #f00;background:#ccc; height:35px;}
+.reviewTab li{float:left; padding:10px; background:#f00; margin:0 2px;}
+
+.reviewCont{background:#fff;}
+.reviewCont .carCont{border:1px solid #f00;background:#fff; margin-top:10px; height:155px;overflow:hidden;}
+.reviewCont .carCont {background:#ccc; float:left; width:150px; border:1px solid #000;}
+
+#carCont0{background:#ccc;}
+#carCont1{background:#ff0;}
+#carCont2{background:#e05;}
+.shan{height:200px; margin:10px 0; background:#fff}
+.shan li{background:#ccc; float:left; height:150px; width:240px; border:1px solid #000;}

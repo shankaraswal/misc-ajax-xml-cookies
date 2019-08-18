@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* global Classes */
+body{background:#fff;font:normal 12px arial; color:#333;}
+.clr{clear:both; font-size:1px;}
+/****/
+
+.mainContainer{width:970px;margin:0 auto;}
+.header{}
+.midSection{}
+	.midSection .leftCol{float:left; width:200px;}
+		.leftCol .contBox{}
+		.leftCol .tabularData{font:normal 11px tahoma; border-collapse: collapse;}
+		.leftCol .tblSort th{padding:5px 2px; font-weight:bold; background:#eee; border:1px solid #ccc; text-align:left;}
+		.leftCol .tblSort td{padding:2px; border:1px solid #ccc;}
+	
+	.midSection .rightCol{float:right;width:750px;}
+		.midSection .leftNav{ border:1px solid #ccc; border-bottom:0; margin:20px 0 0;}
+		.midSection .leftNav li{border-bottom:1px solid #ccc; padding:5px;}
+		.midSection .leftNav li a{font:normal 12px arial; color:#333;}
+
+	.rightCol .slideArea{border:1px solid #9d9d9d; padding:10px 0;}
+		.rightCol .copyArea{padding:10px; background:#9d9d9d;}
+		.rightCol .copyArea h2{font:bold 20px tahoma; color:#fff;padding-bottom:15px;}
+		.rightCol .copyArea p{line-height:20px; font-size:13px;}
+		
+		.rightCol .frmSec{ margin:20px 0; border:1px solid #9d9d9d;}
+		.rightCol .frmSec h3{font:bold 14px tahoma; padding:7px 10px; background:#ccc; border-bottom:1px solid #9d9d9d}
+		.rightCol .frmSec label{width:200px; float:left; margin:10px 0; padding-left:10px;}
+		.rightCol .frmSec input{width:200px;float:left; border:1px solid #ccc; margin:10px}
+
+	/**Carousel css*/
+	#carousel_inner {float:left;width:650px; overflow:hidden;}
+		#carousel_ul{position:relative;left:-210px;list-style-type: none;margin: 0px;padding:0px;width:99999px;}
+		#carousel_ul li {float: left;width:205px;padding:0px;margin:0 5px;text-align:center;}
+		#carousel_ul li img {border:1px solid #333;}
+		#prev, #next {float:left;width:45px;text-align:center;}
+		#carousel_ul li a{background:#eee;font:bold 13px tahoma; color:#333; text-decoration:none; text-transform:uppercase; width:100px;margin:10px 0; padding:4px 0; display:inline-block; border:1px solid #ccc} 
+		#prev img, #next img {border:0;cursor: pointer;margin-top:50px;}

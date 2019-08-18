@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* global Classes */
+body{background:#fff;font:normal 12px arial; color:#333;}
+.clr{clear:both; font-size:1px;}
+/****/
+
+.mainContainer{width:970px;margin:0 auto;}
+.header{}
+.midSection{}
+	.midSection .leftCol{float:left; width:200px;}
+		.leftCol .contBox{}
+		.leftCol .tabularData{font:normal 11px tahoma; border-collapse: collapse;}
+		.leftCol .tblSort th{padding:5px 2px; font-weight:bold; background:#eee; border:1px solid #ccc; text-align:left;}
+		.leftCol .tblSort td{padding:2px; border:1px solid #ccc;}
+	
+	.midSection .rightCol{float:right;width:750px;}
+		.midSection .leftNav{ border:1px solid #ccc; border-bottom:0; margin:20px 0 0;}
+		.midSection .leftNav li{border-bottom:1px solid #ccc; padding:5px;}
+		.midSection .leftNav li a{font:normal 12px arial; color:#333;}
+
+	.rightCol .slideArea{border:1px solid #9d9d9d; padding:10px 0;}
+		.rightCol .copyArea{padding:10px; background:#9d9d9d;}
+		.rightCol .copyArea h2{font:bold 20px tahoma; color:#fff;padding-bottom:15px;}
+		.rightCol .copyArea p{line-height:20px; font-size:13px;}
+		
+		.rightCol .frmSec{ margin:20px 0; border:1px solid #9d9d9d;}
+		.rightCol .frmSec h3{font:bold 14px tahoma; padding:7px 10px; background:#ccc; border-bottom:1px solid #9d9d9d}
+		.rightCol .frmSec  > form > label{width:200px; float:left; margin:10px 0; padding-left:10px;}
+		.rightCol .frmSec > form > input{width:245px;float:left; border:1px solid #ccc; margin:10px}
+		.rightCol .frmSec .btnBar{ float:right; margin:10px}
+		.rightCol .frmSec .btnBar > input{background:#333;font:bold 12px arial; color:#fff; border:0; padding:4px 10px}
+	/**Carousel css*/
+	
+/****/
+	.slideBox{position: relative; overflow:hidden; height:160px;}
+	.slideList{float:left; position:relative;}
+	.slideList li{float:left; text-align:center;padding:0 30px;}
+	.slideList li img{border:1px solid #333; width:187px; height:103px;} 
+	.slideList li  a{ display:block} 
